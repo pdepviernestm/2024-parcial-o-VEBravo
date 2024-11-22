@@ -3,7 +3,7 @@ const intensidadElevada = 50
 class Persona {
   var property edad
   const property emociones = [] 
-  
+
   method agregarEmocion(emocion) = emociones.add(emocion)
   method esAdolescente() = edad.between(12, 19)
   method estaPorExplotar() = emociones.all({e => e.puedeLiberarse()})
@@ -83,11 +83,11 @@ solucionado. Por ahora, conocemos unicamente los siguientes motivos comunes.
  - Recibirse, no fue solucionado
 Al liberarse, se libera igual que el temor
 
-Se utilizo herencia ya que la ansiedad reutiliza y extiende el comportamiento definido en la clase
+La herencia resultó de utilidad ya que la ansiedad reutiliza y extiende el comportamiento definido en la clase
 superior Temor. 
 Luego, se utilizó polimorfismo ya que, aunque las condiciones mediante las cuales la ansiedad puede liberarse
-son diferentes a las demas, la ansiedad entiende el mensaje puede liberarse de la misma forma que las demas
-emociones
+son diferentes a las demas, la ansiedad entiende los mensajes puedeLiberarse() y liberarse() de la misma forma que las demas
+emociones.
 */
 
 
