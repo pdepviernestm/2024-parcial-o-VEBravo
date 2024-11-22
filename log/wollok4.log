@@ -1216,3 +1216,52 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":268,"timestamp":"2024-11-22T14:38:27.188Z"}
 {"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":163,"timestamp":"2024-11-22T14:38:27.359Z"}
 {"failures":[],"level":"info","message":"🧪 Test runner executed on c:\\Users\\54112\\2024-parcial-o-VEBravo","result":{"failed":0,"ok":1},"timeElapsed":695,"timestamp":"2024-11-22T14:38:33.598Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":319,"timestamp":"2024-11-22T14:40:13.137Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:c:\\Users\\54112\\2024-parcial-o-VEBravo\\example.wlk","timestamp":"2024-11-22T14:40:13.153Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":316,"timestamp":"2024-11-22T14:40:13.471Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":199,"timestamp":"2024-11-22T14:40:13.670Z"}
+{"level":"info","message":"⌛ Validating intensamente.wlk","timeElapsed":325,"timestamp":"2024-11-22T14:40:14.007Z"}
+{"level":"info","message":"Removing diagnostics from \\Users\\54112\\2024-parcial-o-VEBravo\\example.wlk","timestamp":"2024-11-22T14:40:14.009Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/54112/2024-parcial-o-VEBravo","timestamp":"2024-11-22T14:40:14.011Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":172,"timestamp":"2024-11-22T14:40:22.533Z"}
+{"level":"info","message":"onRequest - STRONG_FILES_CHANGED:c:\\Users\\54112\\2024-parcial-o-VEBravo\\testExample.wtest","timestamp":"2024-11-22T14:40:22.534Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":235,"timestamp":"2024-11-22T14:40:22.769Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":193,"timestamp":"2024-11-22T14:40:22.963Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":255,"timestamp":"2024-11-22T14:40:23.265Z"}
+{"level":"info","message":"Removing diagnostics from \\Users\\54112\\2024-parcial-o-VEBravo\\testExample.wtest","timestamp":"2024-11-22T14:40:23.265Z"}
+{"level":"info","message":"onRequest - WORKSPACE_URI:file:///c%3A/Users/54112/2024-parcial-o-VEBravo","timestamp":"2024-11-22T14:40:23.267Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":217,"timestamp":"2024-11-22T14:40:27.832Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":177,"timestamp":"2024-11-22T14:40:28.060Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":200,"timestamp":"2024-11-22T14:40:28.267Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":194,"timestamp":"2024-11-22T14:40:28.461Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:28.470Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":164,"timestamp":"2024-11-22T14:40:28.634Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:28.635Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":198,"timestamp":"2024-11-22T14:40:28.833Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":163,"timestamp":"2024-11-22T14:40:28.999Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:28.999Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":137,"timestamp":"2024-11-22T14:40:29.137Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:29.137Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":141,"timestamp":"2024-11-22T14:40:29.279Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:29.280Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":181,"timestamp":"2024-11-22T14:40:29.461Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":171,"timestamp":"2024-11-22T14:40:29.632Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:29.632Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":115,"timestamp":"2024-11-22T14:40:29.748Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:29.748Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":167,"timestamp":"2024-11-22T14:40:29.915Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":119,"timestamp":"2024-11-22T14:40:30.034Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:30.034Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":130,"timestamp":"2024-11-22T14:40:30.165Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:30.165Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":161,"timestamp":"2024-11-22T14:40:30.328Z"}
+{"level":"info","message":"onRequest - completionItem/resolve","timestamp":"2024-11-22T14:40:30.328Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":171,"timestamp":"2024-11-22T14:40:30.500Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":169,"timestamp":"2024-11-22T14:40:30.669Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":179,"timestamp":"2024-11-22T14:40:30.853Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":162,"timestamp":"2024-11-22T14:40:31.017Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":156,"timestamp":"2024-11-22T14:40:31.174Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":163,"timestamp":"2024-11-22T14:40:31.337Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":184,"timestamp":"2024-11-22T14:40:31.522Z"}
+{"level":"info","message":"⌛ Validating testIntensamente.wtest","timeElapsed":176,"timestamp":"2024-11-22T14:40:31.698Z"}
+{"failures":[],"level":"info","message":"🧪 Test runner executed on c:\\Users\\54112\\2024-parcial-o-VEBravo","result":{"failed":0,"ok":4},"timeElapsed":846,"timestamp":"2024-11-22T14:40:37.526Z"}

@@ -1,4 +1,4 @@
-import example.*
+import intensamente.*
 
 describe "Un grupo de personas viven un evento de impacto 100" {
   const grupoPersonas = new Grupo()
