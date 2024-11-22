@@ -1,0 +1,63 @@
+import intensamente.*
+
+describe "Un grupo de personas viven un evento de impacto 100" {
+  const grupoPersonas = new Grupo()
+
+  const valentin = new Persona(edad = 20)
+  const sofi = new Persona(edad = 19)
+  const facu = new Persona(edad = 20)
+
+  const furiaQueSeLibera = new Furia() // intensidadElevada y palabrota de + de 7 letras
+  const furiaQueNoSeLibera = new Furia()// intensidadElevada y palabrota de - de 7 letras
+  const alegriaQueSeLibera = new Alegria(intensidad = 200)// intensidadElevada y 2 eventos vividos(par)
+  const alegriaQueNoSeLibera = new Alegria(intensidad = 20)// intensidadElevada y 1 eventos vividos(impar)
+  const furiaQueSeLibera2 = new Furia()
+  const alegriaQueSeLibera2 = new Alegria(intensidad = 200)
+  
+  const unEvento = new Evento(impacto = 50)
+
+  method initGrupo(listaPersonas,grupo){listaPersonas.forEach({p => grupo.agregarIntegrante(p)})}
+  method initPersonaEmociones(listaEmociones,persona){listaEmociones.forEach({p => persona.agregarEmocion(p)})}
+
+  method initialize(){
+    furiaQueSeLibera.agregarPalabrota("tontuelo")
+    furiaQueNoSeLibera.agregarPalabrota("tonto")
+
+    furiaQueSeLibera2.agregarPalabrota("papafrita")
+
+    alegriaQueSeLibera.agregarEventoVivido(unEvento)
+    alegriaQueSeLibera.agregarEventoVivido(unEvento)
+    alegriaQueSeLibera2.agregarEventoVivido(unEvento)
+    alegriaQueSeLibera2.agregarEventoVivido(unEvento)
+    alegriaQueNoSeLibera.agregarEventoVivido(unEvento)
+
+    self.initPersonaEmociones([furiaQueSeLibera,alegriaQueNoSeLibera], valentin)
+    self.initPersonaEmociones([furiaQueNoSeLibera,alegriaQueSeLibera], sofi)
+    self.initPersonaEmociones([furiaQueSeLibera2,alegriaQueSeLibera2], facu)
+    self.initGrupo([valentin,sofi,facu], grupoPersonas)
+
+    grupoPersonas.vivirUnEvento(unEvento)
+  }
+  
+
+  test "Todas las emociones de todas las personas del grupo registran el evento vivido"{
+    assert.that(grupoPersonas.seRegistroElEvento(unEvento))
+  }
+
+  test "Valentin libero la furia pero no la alegria"{
+    assert.equals(20,alegriaQueNoSeLibera.intensidad())
+    assert.equals(50,furiaQueSeLibera.intensidad())
+    console.println(furiaQueSeLibera.palabrotas())
+    assert.that(furiaQueSeLibera.palabrotas().isEmpty())
+  }
+
+  test "Sofi libero la alegria pero no la furia"{
+    assert.equals(100,furiaQueNoSeLibera.intensidad())
+    assert.notThat(furiaQueNoSeLibera.palabrotas().isEmpty())
+    assert.equals(150,alegriaQueSeLibera.intensidad())
+  }
+
+  test "Luego de vivir el evento Facu no esta por explotar"{
+    assert.notThat(facu.estaPorExplotar()) 
+  }
+}
