@@ -3,10 +3,9 @@ const intensidadElevada = 50
 class Persona {
   var property edad
   const property emociones = [] 
-
+  
   method agregarEmocion(emocion) = emociones.add(emocion)
   method esAdolescente() = edad.between(12, 19)
-  method tenerNuevaEmocion(emocion){emociones.add(emocion)}
   method estaPorExplotar() = emociones.all({e => e.puedeLiberarse()})
   method vivirUnEvento(evento){
     emociones.forEach({e => if(e.puedeLiberarse()) {e.liberarse(evento)} e.agregarEventoVivido(evento)})
